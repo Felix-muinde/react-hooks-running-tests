@@ -1,9 +1,9 @@
 import React from "react";
 
-function Article() {
+function Article(props) {
   return (
     <div>
-      {/* please pass this test */}
+        {props.text} {/* Render the text from props */}
     </div>
   );
 }
